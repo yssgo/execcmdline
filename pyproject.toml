@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "execcmdline"
+version = "0.0.1"
+dependencies = [
+    'importlib-metadata; python_version<"3.10"',
+]
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "`cmd_execute` function in execcmdline executes cmdline using subsubprocess. It prints stdout in blue, error in red, returncode in green using ANSI escape sequences."
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Unlicense"
+license-files = ["LICENCSE"]
+
+[project.urls]
+Homepage = "https://github.com/yssgo/execcmdline"
